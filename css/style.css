@@ -1,35 +1,35 @@
 @charset "UTF-8";
 
-.logo {
-  text-align: left;
+.header {
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .logo img {
   width: 10%;
   text-align: left;
   margin-left: 10px;
-}
-
-.header {
-  width: ;
-  margin: 0 auto;
+  position: absolute;
 }
 
 .header ul {
-  list-style: none;
-  text-align: right;
-  
+  width: 50%;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 55%;
 }
 
 .header li{
   text-decoration: none;
   display: inline;
-  
 }
 
 .header a {
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: 20px;
   color: gray;
 }
 
@@ -40,13 +40,10 @@
 
 
 .main {
-  width:;
-  
 }
 
 .firstview {
-width:;
-height: 700px;
+  height: 700px;
 }
 
 .firstview img {
@@ -117,7 +114,7 @@ height: 700px;
 }
 
 .news-box {
-  width: 750px;
+  width: 700px;
   height: 350px;
   margin-top: 50px;
   margin-left: 350px;
@@ -140,7 +137,9 @@ height: 700px;
 .news-table th span {
   color: white;
   background-color: #bb1177;
-  border-radius: 10px;
+  border-radius: 30px;
+  align-items: center;
+  padding: 1px 5px;
 }
 
 
@@ -170,9 +169,8 @@ height: 700px;
 }
 
 .about-box {
-  width: 1000px;
   height: 300px;
-  margin:  0 auto;
+  margin:  0 200px;
   margin-top: 50px;
   font-size: 20px
 }
@@ -195,7 +193,7 @@ height: 700px;
 
 .about img {
   width: 350px;
-  margin: -150px 0 0 550px;
+  margin: -150px 0 0 600px;
 }
 
 
@@ -206,7 +204,6 @@ height: 700px;
 }
 
 .service-title {
-
   line-height: 50px;
   width: 350px;
   margin-left: 300px;
@@ -292,9 +289,9 @@ height: 700px;
 
 .service-box3 img {
   width: 125px;
-    position: absolute;
-    top: 10%;
-    left: 5%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
 }
 
 .service-list3 {
@@ -365,7 +362,7 @@ height: 700px;
 }
 
 .blog-item {
-  color: gray;
+  color: white;
   background-color: #bb1177;
   width: 50px;
   height: 20px;
@@ -467,7 +464,7 @@ height: 700px;
 
 .info-title {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   position: absolute;
   top: 40%;
   left: 18%;
@@ -484,7 +481,7 @@ height: 700px;
 
 .info-title2 {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   position: absolute;
   top: 40%;
   right: 10%;
@@ -529,8 +526,14 @@ a img {
 
 .footer {
   color: gray;
+  background-color: #DCDCDC;
   height: 50px;
   text-align: center;
+  padding-bottom: 0%;
+}
+
+.footer-item {
+  padding-top: 20px;
 }
 
 
