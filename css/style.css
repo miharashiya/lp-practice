@@ -1,35 +1,40 @@
 @charset "UTF-8";
 
 .header {
-  height: 50px;
-  position: relative;
+  width: 100%;
+  height: 60px;
 }
 
-.logo img {
-  width: 10%;
-  text-align: left;
-  margin-left: 10px;
-  position: absolute;
+.header-inner {
+  display: flex;
+  align-items: center;
+  padding: 1%;
 }
 
-.header ul {
-  width: 50%;
-  height: 20px;
+.header-logo img {
+  width: 15%;
+  
+}
+
+.header-nav {
+  width: 60%;
+}
+
+.header-navlist {
+  text-decoration: none;
+  display: flex;
   text-align: center;
-  position: absolute;
-  top: 20%;
-  left: 55%;
 }
 
-.header li{
+.header-navlist li {
   text-decoration: none;
-  display: inline;
+  margin-left: 5%;
+
 }
 
-.header a {
-  text-decoration: none;
-  margin-right: 20px;
+.header-navlist a {
   color: gray;
+  text-decoration: none;
 }
 
 
@@ -38,7 +43,10 @@
 
 
 
-.main 
+
+
+
+
 
 .firstview {
   width: 100%;
@@ -52,41 +60,50 @@
 
 .firstview-box  {
   width: 50%;
-  height: 300px;
+  height: 20%;
   position: absolute;
-  top: 150px;
-  left: 350px;
+  top: 20%;
+  left: 20%;
 }
 
 .firstview-box h2 {
+  background-color: aqua;
   font-size: 60px;
   font-family: 'Indie Flower', cursive;
   color: #bb1177;
   text-align: left;
-  
+  white-space: nowrap;
+  display: inline-flexbox;
 }
 
 .firstview-title span {
+  background-color: #dda0dd;
   color: darkcyan;
+  white-space: nowrap;
 }
 
 .firstview-text {
+  background-color: burlywood;
   font-size: 20px;
   color: #bb1177;
   text-align: left;
   margin-top: 5%;
-  margin-bottom: 0%;
+  white-space: nowrap;
+
 }
 
 .firstview-text span {
   color: darkcyan;
+  white-space: nowrap;
 }
 
 .firstview-text2 {
+  background-color: yellow;
   font-size: 15px;
   color: grey;
   margin-top: 2%;
   line-height: 20px;
+  white-space: nowrap;
 }
 
 
@@ -140,7 +157,8 @@
   background-color: #bb1177;
   border-radius: 30px;
   align-items: center;
-  padding: 1px 5px;
+  padding: 2% 3%;
+  white-space: nowrap;
 }
 
 
@@ -189,12 +207,14 @@
 }
 
 .about-text {
+  background-color: aquamarine;
   color: gray;
   line-height: 30px;
   position: relative;
 }
 
 .about-text2 {
+  background-color: aquamarine;
   color: gray;
   line-height: 30px;
   position: absolute;
@@ -269,6 +289,7 @@
 }
 
 .service-text {
+  background-color: aqua;
   color: grey;
   height: 35%;
   font-size: 20px;
@@ -302,6 +323,7 @@
 }
 
 .service-text2 {
+  background-color: aqua;
   color: gray;
   font-size: 15px;
   line-height: 30px;
@@ -334,6 +356,7 @@
 }
 
 .service-text3 {
+  background-color: aqua;
   color: gray;
   font-size: 20px;
   font-size: 15px;
@@ -415,6 +438,7 @@
 }
 
 .blog-created {
+  background-color: aqua;
   color: gray;
   text-align: left;
   margin-top: 30px;
@@ -422,6 +446,7 @@
 }
 
 .blog-tab {
+  background-color: aqua;
   color: gray;
   text-align: right;
   margin-top: -16px;
@@ -501,7 +526,7 @@
 
 .info-title {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -519,11 +544,12 @@
 
 .info-title2 {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 
 .info-text {
